@@ -7,7 +7,7 @@ En addition, vous pouvez retrouver la documentation technique et les bonnes prat
 
 ## Ajouter des chapitres 🏷️
 
-[Guide de rédaction](./docs/REDACTION.md)
+[Guide de rédaction](docs/REDACTION.md)
 
 > Lors de la création d'un chapitre, il est important d'ajouter un exercice associé.
 

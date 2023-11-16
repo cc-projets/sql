@@ -11,9 +11,9 @@ contributors:
 
 ## Présentation
 
-![SQL](./assets/sql.png) <!-- .element width="30%" align="left" -->
+![SQL](assets/sql.png) <!-- .element width="30%" align="left" -->
 
-![MySQL](./assets/mysql.png) <!-- .element width="30%" align="right" -->
+![MySQL](assets/mysql.png) <!-- .element width="30%" align="right" -->
 
 ----
 
@@ -162,9 +162,9 @@ Ici, on fera référence à la table `Intitulé` pour savoir quel est le métier
 
 ### Les types
 
-![SQL](./assets/sql.png) <!-- .element width="30%" align="left" -->
+![SQL](assets/sql.png) <!-- .element width="30%" align="left" -->
 
-![MySQL](./assets/mysql.png) <!-- .element width="30%" align="right" -->
+![MySQL](assets/mysql.png) <!-- .element width="30%" align="right" -->
 
 ----
 
@@ -307,9 +307,9 @@ Il représente le nombre de secondes écoulées depuis le 01/01/1970 à 00:00:00
 ## MySQL
 ### Installation
 
-![SQL](./assets/sql.png) <!-- .element width="30%" align="left" -->
+![SQL](assets/sql.png) <!-- .element width="30%" align="left" -->
 
-![MySQL](./assets/mysql.png) <!-- .element width="30%" align="right" -->
+![MySQL](assets/mysql.png) <!-- .element width="30%" align="right" -->
 
 ----
 

@@ -9,9 +9,9 @@ contributors:
 
 # SQL : Vues
 
-![SQL](./assets/sql.png) <!-- .element width="30%" align="left" -->
+![SQL](assets/sql.png) <!-- .element width="30%" align="left" -->
 
-![MySQL](./assets/mysql.png) <!-- .element width="30%" align="right" -->
+![MySQL](assets/mysql.png) <!-- .element width="30%" align="right" -->
 
 
 ----
@@ -104,9 +104,9 @@ SELECT * FROM `Promotions_en_cours`
 ## Fonctions
 
 
-![SQL](./assets/sql.png) <!-- .element width="30%" align="left" -->
+![SQL](assets/sql.png) <!-- .element width="30%" align="left" -->
 
-![MySQL](./assets/mysql.png) <!-- .element width="30%" align="right" -->
+![MySQL](assets/mysql.png) <!-- .element width="30%" align="right" -->
 
 ----
 

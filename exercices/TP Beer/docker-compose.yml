@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  db:
+    build: .
+    container_name: db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: beer
+      MYSQL_USER: beer
+      MYSQL_PASSWORD: beer
+    ports:
+      - "3307:3306"

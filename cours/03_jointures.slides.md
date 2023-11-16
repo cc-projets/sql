@@ -11,9 +11,9 @@ sources:
 
 # SQL : Jointures
 
-![SQL](./assets/sql.png) <!-- .element width="30%" align="left" -->
+![SQL](assets/sql.png) <!-- .element width="30%" align="left" -->
 
-![MySQL](./assets/mysql.png) <!-- .element width="30%" align="right" -->
+![MySQL](assets/mysql.png) <!-- .element width="30%" align="right" -->
 
 
 ----
@@ -413,9 +413,9 @@ WHERE eleves.id IS NULL
 
 # Gestion des dates
 
-![SQL](./assets/sql.png) <!-- .element width="30%" align="left" -->
+![SQL](assets/sql.png) <!-- .element width="30%" align="left" -->
 
-![MySQL](./assets/mysql.png) <!-- .element width="30%" align="right" -->
+![MySQL](assets/mysql.png) <!-- .element width="30%" align="right" -->
 
 ----
 

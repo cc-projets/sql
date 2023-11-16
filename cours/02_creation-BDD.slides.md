@@ -11,9 +11,9 @@ contributors:
 
 ## Création avec Workbench
 
-![SQL](./assets/sql.png) <!-- .element width="30%" align="left" -->
+![SQL](assets/sql.png) <!-- .element width="30%" align="left" -->
 
-![MySQL](./assets/mysql.png) <!-- .element width="30%" align="right" -->
+![MySQL](assets/mysql.png) <!-- .element width="30%" align="right" -->
 
 ----
 
@@ -37,7 +37,7 @@ contributors:
 
 ### Exemple de schéma
 
-![Schéma Exemple](./assets/schema-exemple.png)
+![Schéma Exemple](assets/schema-exemple.png)
 
 > Nous allons le créer ensemble !
 
@@ -126,9 +126,9 @@ SET UNIQUE_CHECKS = @OLD_UNIQUE_CHECKS;
 ## Commandes de base
 
 
-![SQL](./assets/sql.png) <!-- .element width="30%" align="left" -->
+![SQL](assets/sql.png) <!-- .element width="30%" align="left" -->
 
-![MySQL](./assets/mysql.png) <!-- .element width="30%" align="right" -->
+![MySQL](assets/mysql.png) <!-- .element width="30%" align="right" -->
 
 ----
 
