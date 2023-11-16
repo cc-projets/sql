@@ -3,7 +3,7 @@
 ```mysql
 SELECT ticket.NUMERO_TICKET, SUM(ventes.QUANTITE) AS QuantiteTotale
 FROM ticket
-JOIN ventes ON ticket.NUMERO_TICKET = ventes.NUMERO_TICKET
+    NATURAL JOIN ventes 
 GROUP BY ticket.NUMERO_TICKET
 ORDER BY QuantiteTotale DESC;
 
@@ -14,7 +14,7 @@ ORDER BY QuantiteTotale DESC;
 ```mysql
 SELECT ticket.NUMERO_TICKET, SUM(ventes.QUANTITE) as qteTotal
 FROM ticket
-NATURAL JOIN ventes 
+    NATURAL JOIN ventes 
 GROUP BY ticket.NUMERO_TICKET
 HAVING SUM(ventes.QUANTITE) > 500
 ORDER BY qteTotal DESC;
@@ -76,17 +76,33 @@ ORDER BY Annee, MontantTotalPaye DESC;
 ## 17  Donner le C.A. par année.
 
 ```mysql
+SELECT ventes.ANNEE AS Annee, SUM(article.PRIX_ACHAT * 1.15 * ventes.QUANTITE) AS ChiffreAffaires
+FROM ventes
+    NATURAL JOIN article
+GROUP BY Annee
+ORDER BY Annee;
 ```
 
 ## 18. Lister les quantités vendues de chaque article pour l’année 2016.
 
 ```mysql
-
+SELECT article.ID_ARTICLE, article.NOM_ARTICLE, SUM(ventes.QUANTITE) AS QuantiteVendue
+FROM ventes
+    NATURAL JOIN article
+    NATURAL JOIN ticket 
+WHERE ventes.ANNEE = 2016
+GROUP BY article.ID_ARTICLE, article.NOM_ARTICLE
+ORDER BY QuantiteVendue DESC;
 ```
 
 ## 19. Lister les quantités vendues de chaque article pour les années 2014, 2015, 2016.
 
 ```mysql
-
+SELECT article.ID_ARTICLE, article.NOM_ARTICLE, ventes.ANNEE AS Annee, SUM(ventes.QUANTITE) AS QuantiteVendue
+FROM ventes
+NATURAL JOIN article
+WHERE ventes.ANNEE IN (2014, 2015, 2016)
+GROUP BY article.ID_ARTICLE, article.NOM_ARTICLE, Annee
+ORDER BY Annee, QuantiteVendue DESC;
 ```
 
